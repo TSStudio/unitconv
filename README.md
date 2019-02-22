@@ -1,6 +1,5 @@
-Unitconv 一个PHP单位转换器
-=
-##如何使用？
+# Unitconv 一个PHP单位转换器
+## 如何使用？
 在你的文件中引用unitconv.php(使用include)
 执行以下语句
 ```php
@@ -10,12 +9,12 @@ $yourobj=new unitconv();
 ```
 基本使用方法为
 `$yourobj->convert($value,$unit1,$unit2,$type);`
-##错误处理
+## 错误处理
 如果在你执行了此方法后出现了错误，该方法会返回false并且你可通过
 `$yourobj->errormsg;`
 来查看错误原因
 ##目前支持的单位
-###length - 长度
+### length - 长度
 m - 米
 km - 千米
 dm - 分米
@@ -34,7 +33,7 @@ mi - 英里
 ------------
 
 平方，立方请自行用1乘方处理
-###weight - 质量
+### weight - 质量
 g - 克
 kg - 千克
 mg - 毫克
@@ -43,7 +42,7 @@ lb - 磅
 oz - 盎司
 ct - 克拉
 t - 吨
-###time - 时间
+### time - 时间
 s - 秒
 min - 分
 h - 时
@@ -53,7 +52,7 @@ week - 星期
 ms - 毫秒
 us - 微妙
 ns - 纳秒
-###data - 数据
+### data - 数据
 B - 字节
 b - 位
 KB - 不解释 再往下都不解释
@@ -62,12 +61,12 @@ MB
 Mb
 GB
 Gb
-###temp - 温度
+### temp - 温度
 C - 摄氏度
 F - 华氏度
 K - 开尔文
 
-###相信我，不同类型的单位转换绝对会出错的
+### 相信我，不同类型的单位转换绝对会出错的
 
 ------------
 
