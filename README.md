@@ -13,7 +13,7 @@ $yourobj=new unitconv();
 如果在你执行了此方法后出现了错误，该方法会返回false并且你可通过
 `$yourobj->errormsg;`
 来查看错误原因
-##目前支持的单位
+## 目前支持的单位
 ### length - 长度
 #### m - 米
 #### km - 千米
