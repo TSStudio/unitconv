@@ -1,4 +1,4 @@
-﻿#Unitconv-一个PHP单位转换器
+#Unitconv 一个PHP单位转换器
 ##如何使用？
 在你的文件中引用unitconv.php(使用include)
 执行以下语句
