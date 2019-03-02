@@ -84,6 +84,6 @@ $yourobj=new unitconv();
 ------------
 
 ### 在线演示
-#### https://account.tmysam.top/test.php?t=[type]&v1=[value1]&u1=[unit\1]&u2=[unit2]
+#### https://account.tmysam.top/test.php?t=[type]&v1=[value1]&u1=[unit1]&u2=[unit2]
 #### 例如：将1米(m)转换为英里(mi)
 #### https://account.tmysam.top/test.php?t=length&v1=1000&u1=m&u2=mi
