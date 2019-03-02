@@ -9,6 +9,7 @@ $yourobj=new unitconv();
 ```
 基本使用方法为
 `$yourobj->convert($value,$unit1,$unit2,$type);`
+你当然可以不实例化而直接使用`::`来调用，但是不确定错误信息的获取
 ## 错误处理
 如果在你执行了此方法后出现了错误，该方法会返回false并且你可通过
 `$yourobj->errormsg;`
